@@ -8,41 +8,134 @@
     <link rel="stylesheet" href="./estilo.css">
     <script src="./main.js"></script>
 </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
 <body>
-    <header>
-        <img style="width: 120px;" src="./imagenes/Radtek.png">
-    <h1>lavado esteban</h1>
+ <header>
     <div>
-        <select >
-            <option id="no elegido" value="no elegido">fabricante</option>
-            <option id="bmw" value="bmw">bmw</option>
-            <option id="bentley" value="bentley">bentley</option>
-            <option id="audi" value="audi">audi</option>
-            <option id="genesis" value="genesis">genesis</option>
-            <option id="subaru" value="subaru">subaru</option>
-            <option id="chevrolet" value="chevrolet">chevrolet</option>
-            <option id="hyundai" value="hyundai">hyundai</option>
-            <option id="kia" value="kia">kia</option>
-            <option id="cadillac" value="cadillac">cadillac</option>
-            <option id="mitsubishi" value="mitsubishi">mitsubishi</option>
-            <option id="mitsubishi" value="mitsubishi">mitsubishi</option>
-            <option id="chrysler" value="chrysler">chrysler</option>
-            <option id="acura" value="acura">acura</option>
-            <option id="jaguar" value="jaguar">jaguar</option>
-            <option id="mini" value="mini">mini</option>
-            <option id="honda" value="honda">honda</option>
-            <option id="mazda" value="mazda">mazda</option>
-        </select>
-
-        <select name="modelo" id="o" >
-            <option>modelo</option>
-        </select>
-        <select name="año" id="a" >
-            <option>año</option>
-        </select>
+<img style="width: 120px;" src="./imagenes/Radtek.png">
     </div>
-    </header>
-    
-        
+    <div>
+        <h1>lavado esteban</h1>
+        <p style="text-align: center;">Es hora de brillar</p>
+    </div>
+    <div>
+        <img style="width: 120px;" src="./imagenes/Radtek.png">
+    </div>
+ </header>
+<main>
+<div style="text-align: center;">
+    <h2>ofrcemos</h2>
+</div>
+<div style="flex-direction: row-reverse;" class="carta">
+
+
+    <div>
+    <img style="width: 300px;" src="https://img.freepik.com/foto-gratis/hermoso-coche-servicio-lavado_23-2149212221.jpg"/>
+    </div>
+    <div style="margin-right: 50px;" >
+        <div>
+    <h3 class="sub-title">paquete</h3>
+        </div>
+        <div class="opciones">
+            <div>
+    <ul>
+        <li>lavado completo</li>
+        <li>lavado para venta</li>
+    </ul>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<div class="carta">
+
+
+    <div>
+    <img style="width: 300px;" src="https://www.automovilclub.cl/wp-content/uploads/2021/10/1622470488.jpeg"
+    >
+    </div>
+    <div style="margin-left: 50px;" >
+        <div>
+    <h3 class="sub-title">servicios</h3>
+        </div>
+        <div class="opciones">
+            <div>
+    <ul>
+        <li>pulida</li>
+        <li>lavado interno</li>
+        <li>lavado externo</li>
+    </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>lavado de motor</li>
+                    <li>lavado de chasis</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    </main>
+    <footer>
+    <div>
+        <div>
+        <h4>contactanos</h4>
+        </div>
+        <div>
+        <ul>
+            <li>teléfono:+56 996 632 762</li>
+            <li>gmail:lavados.esteban@gmail.com</li>
+        </ul>
+        </div>
+    </div>
+    <div>
+        <div>
+            <h4>ubicación</h4>
+            </div>
+            <div>
+            <ul>
+                <li>las américas con el boro</li>
+            </ul>
+            </div>
+        </div>
+        <div>
+        <div>
+        <h4>preguntas frecuentes</h4>
+        </div>
+        <div>
+            <ul>
+                <li><button onclick="pregunta1()">¿cuando tiempo antes hago la reserva?</button></li>
+                <li><button onclick="pregunta2()">¿que pasa si no voy?</button></li>
+                <li><button onclick="pregunta3()">¿puedo cancelar mi reserva?</button></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <div>
+        <h4>conocenos</h4>
+        </div>
+        <div>
+            <ul>
+                <li><button onclick="vision()">vision</button></li>
+                <li><button onclick="mision()">mision</button></li>
+            </ul>
+        </div>
+    </div>
+    </footer>
+    <div id="respuesta">
+       
+    </div>
 </body>
+<script src="./main.js"></script>
 </html>
