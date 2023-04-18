@@ -41,3 +41,8 @@ button{
 body{
     background-color: rgb(33, 171, 235);
 }
+#select{
+    display: flex;
+    flex-wrap: nowrap;  
+    justify-content: space-around;
+}
